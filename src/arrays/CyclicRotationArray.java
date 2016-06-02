@@ -1,4 +1,4 @@
-package arrays.cyclicrotation;
+package arrays;
 
 import java.util.Arrays;
 
@@ -8,7 +8,7 @@ import java.util.Arrays;
  * @author gustavo
  *
  */
-public class Solution {
+public class CyclicRotationArray {
 	
 	/**
 	 * main method for testing purposes
@@ -16,7 +16,7 @@ public class Solution {
 	 */
 	public static void main(String[] args) {
 		int[] test = {1,2,3,4,5,6,7};
-		Solution solution = new Solution();
+		CyclicRotationArray solution = new CyclicRotationArray();
 		System.out.println(Arrays.toString(solution.solution(test, 100)));
 	}
 	
